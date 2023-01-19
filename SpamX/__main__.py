@@ -3,7 +3,7 @@ from . import *
 
 if DATABASE_URL:
    from .database import users_db
-   print("SpamX - [INFO]: Adding all sudos in DB!")
+   print("SpamX - [INFO]: Adding all masters in DB!")
    for x in sudoser:
       users_db.addsudo(x)
      
